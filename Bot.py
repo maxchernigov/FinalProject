@@ -3,7 +3,7 @@ from abc import ABC,abstractmethod
 
 class UserInput(ABC):
     @abstractmethod
-    def Input():
+    def Input(self):
         pass
 
 
